@@ -1,7 +1,8 @@
 The MIT License (MIT)
 
 Copyright (c) 2016-2017 GitHub, Inc.
-Copyright (c) 2024 panispani.
+Copyright (c) 2019 RT2 Lab
+Copyright (c) 2024 panispani
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
