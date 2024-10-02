@@ -3,7 +3,7 @@ name: Jack Saunders
 supervisor: Özgür Şimşek
 secondarySupervisor: 
 researchInterests: ['Robotics', 'Optimal-Exploration', 'Aerial Vehicles']
-profileImg: ./jack.jpg
+profileImg: jack.jpg
 slug: jack-saunders
 webisite: https://www.SaundersJ.dev
 scholar: https://scholar.google.com/citations?user=mqmHa5EAAAAJ

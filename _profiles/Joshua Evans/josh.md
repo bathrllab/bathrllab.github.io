@@ -5,7 +5,7 @@ researchInterests: ['Reinforcement Learning', 'Hierarchical Reinforcement Learni
 linkedIn: www.linkedin.com/in/jb-evans
 twitter: https://twitter.com/TheJEvns/
 personalSite: https://people.bath.ac.uk/jbe25/index.html
-profileImg: ./jb_evans.png
+profileImg: jb_evans.png
 slug: joshua-b-evans
 ---
 

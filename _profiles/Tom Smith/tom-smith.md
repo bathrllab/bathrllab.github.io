@@ -5,7 +5,7 @@ secondarySupervisor: Xi Chen
 researchInterests: ['Reinforcement Learning', 'Affordances', 'Skill Discovery']
 personalSite: https://tmssmith.github.io
 linkedIn: https://www.linkedin.com/in/tmssmith/
-profileImg: ./tmss.png
+profileImg: tmss.png
 slug: tom-smith
 ---
 

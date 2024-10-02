@@ -5,7 +5,7 @@ secondarySupervisor: Janina Hoffmann
 researchInterests: ['Reinforcement Learning', 'Hierarchical RL', 'Program Synthesis', 'Symbolic AI', 'Generalisation']
 linkedIn: www.linkedin.com/in/tom-cannon-3282a4100
 twitter: link
-profileImg: ./strongest_avenger.png
+profileImg: strongest_avenger.png
 slug: tom-cannon
 ---
 
