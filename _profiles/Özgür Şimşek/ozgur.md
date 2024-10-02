@@ -6,5 +6,6 @@ personalSite: https://researchportal.bath.ac.uk/en/persons/%C3%B6zg%C3%BCr-%C5%9
 scholar: https://scholar.google.com/citations?user=z1BYZG0AAAAJ&hl=en
 slug: ozgur
 profileImg: simsek-headshot.jpeg
+role: Lab Director
 staff: yes
 ---

@@ -68,3 +68,46 @@
 .portrait {
     width: 200px;
 }
+
+// people.md
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    gap: 20px; /* Space between columns */
+    margin-bottom: 20px; /* Space below the row */
+}
+
+.grid-item {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    padding: 10px;
+}
+
+// team_member.html
+.list-inline {
+    list-style: none;
+    padding: 0;
+}
+
+ul.list-inline {
+    padding: 0;
+}
+
+.list-inline-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.list-inline-item a {
+    text-decoration: none;
+}
+
+/* Add flexbox for alignment */
+.media {
+    display: flex;
+    align-items: center; /* Vertically aligns the image and text */
+}
+
+.media-body {
+    margin-left: 20px; /* Adds space between the image and the media body */
+}
