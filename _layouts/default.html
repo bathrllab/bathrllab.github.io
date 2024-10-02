@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      {% if site.title and site.title != page.title %}
+      <h1 id="main_bar">
+      <!-- <a href="{{ "/" | absolute_url }}">{{ site.title }}</a> -->
+      <div class="topnav" id="topnav">
+        <img id="whirl_logo" src="/assets/img/whirl_large_cropped-1024x445.png">
+        <div class="page_buttons">
+            <a href="/index.html" class="btn">Home</a>
+            <a href="/pages/research.html" class="btn">Research</a>
+            <a href="/pages/people.html" class="btn">People</a>
+            <a href="/pages/join.html" class="btn">Join</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="expand()">
+            <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      </h1>
+      {% endif %}
+
+    <div class="main_content">
+        {{ content }}
+    </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+      function expand() {
+        var x = document.getElementById("topnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
