@@ -3,38 +3,28 @@
 
 @import "jekyll-theme-primer";
 
-
 .crop-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%; /* Set width to ensure it's responsive */
   height: auto; /* Maintain aspect ratio */
-//   clip-path: inset(10% 0 10% 0); /* Crop 10% from the top and bottom */
-//   object-fit: cover;
 }
 #topnav a {
     font-size: 15px;
-    color: #395c7e;
+    color: #32516f;
 }
 .main_content {
     padding-bottom: 1rem;
     border-bottom: 1px solid lighten($gray-300, 5%);
 }
-
-
-// rgb(36, 41, 46)
-// rgb(233.6603773585, 235.7943396226, 238.6396226415)
-// edf2f7
-#whirl_logo {
-    width: 25%
+#lab_logo {
+    width: 30%
 }
 
 #topnav {
     position: relative;
 }
-
-
 
 #topnav a.btn {
     padding-right: 15px;
