@@ -1,5 +1,5 @@
 ---
-name: Karolis Ramanauskas
+name: Karolis Jucys
 supervisor: Özgür Şimşek
 secondarySupervisor: Rachael Bedford
 researchInterests: ['Reinforcement Learning Interpretability']
