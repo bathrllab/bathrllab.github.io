@@ -1,38 +1,12 @@
 <li class="media mb-5">
-    <!-- <img class="align-self-center mr-3"
-         src="/assets/img/{{ member.profileImg}}"
-         style="max-width: 100px; filter: grayscale(100%); border-radius: 50%;"
-         alt="{{member.title}}"> -->
-    <img class="align-self-center mr-3"
-         src="/assets/img/{{ member.profileImg}}"
-         style="max-width: 100px; max-height: 100px; width: 100px; height: auto; object-fit: cover; border-radius: 50%;"
-         alt="{{member.title}}">
+  <img class="align-self-center"
+       src="/assets/img/{{ member.profileImg }}"
+       style="max-width: 100px; max-height: 100px; width: 100px; height: auto; object-fit: cover; border-radius: 50%;"
+       alt="{{member.title}}">
 
-    <div class="media-body">
-      <h5 class="mt-0"><a href="{{ member.url }}">{{ member.title }}</a></h5>
-      <p>{{member.role}}</p>
-      {%- include team_member_social.html -%}
-    </div>
+  <div class="media-body">
+    <h4 class="name">{{ member.name }}</h4>
+    <p>{{member.role}}</p>
+    {%- include team_member_social.html -%}
+  </div>
 </li>
-
-<!-- <div class="team-member">
-  <img src="/assets/img/{{ member.profileImg}}" alt="{{ member.name }}" class="img-fluid">
-  <h3>{{ member.name }}</h3>
-  {% if member.researchInterests %}
-      <p><strong>Research Interests:</strong> {{ member.researchInterests | join: ', ' }}</p>
-  {% endif %}
-  <p>
-      {% if member.linkedIn %}
-          <a href="{{ member.linkedIn }}" target="_blank">LinkedIn</a>
-      {% endif %}
-      {% if member.twitter %}
-          <a href="{{ member.twitter }}" target="_blank">Twitter</a>
-      {% endif %}
-      {% if member.personalSite %}
-          <a href="{{ member.personalSite }}" target="_blank">Website</a>
-      {% endif %}
-      {% if member.scholar %}
-          <a href="{{ member.scholar }}" target="_blank">Google Scholar</a>
-      {% endif %}
-  </p>
-</div> -->
