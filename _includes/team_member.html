@@ -1,7 +1,11 @@
 <li class="media mb-5">
-    <img class="align-self-center mr-3"
+    <!-- <img class="align-self-center mr-3"
          src="/assets/img/{{ member.profileImg}}"
          style="max-width: 100px; filter: grayscale(100%); border-radius: 50%;"
+         alt="{{member.title}}"> -->
+    <img class="align-self-center mr-3"
+         src="/assets/img/{{ member.profileImg}}"
+         style="max-width: 100px; max-height: 100px; width: 100px; height: auto; object-fit: cover; border-radius: 50%;"
          alt="{{member.title}}">
 
     <div class="media-body">
@@ -11,7 +15,7 @@
     </div>
 </li>
 
-<div class="team-member">
+<!-- <div class="team-member">
   <img src="/assets/img/{{ member.profileImg}}" alt="{{ member.name }}" class="img-fluid">
   <h3>{{ member.name }}</h3>
   {% if member.researchInterests %}
@@ -31,4 +35,4 @@
           <a href="{{ member.scholar }}" target="_blank">Google Scholar</a>
       {% endif %}
   </p>
-</div>
+</div> -->
