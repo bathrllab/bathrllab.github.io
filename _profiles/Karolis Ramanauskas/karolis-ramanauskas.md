@@ -5,7 +5,7 @@ secondarySupervisor: Rachael Bedford
 researchInterests: ['Reinforcement Learning Interpretability']
 linkedIn: https://www.linkedin.com/in/karolisramanauskas/
 twitter: https://twitter.com/Karolis_Ram
-profileImg: ./Karolis-Ramanauskas.jpg
+profileImg: Karolis-Ramanauskas.jpg
 personalSite: https://ka.rol.is/
 slug: karolis-ramanauskas
 ---

@@ -5,7 +5,7 @@ secondarySupervisor: Emma Carmel
 researchInterests: ['reinforcement learning', 'explainable artificial intelligence', 'skill discovery',
 'bounded rationality', 'lifelong learning']
 linkedIn: https://www.linkedin.com/in/dan-beechey/
-profileImg: ./dan_head_shot.jpg
+profileImg: dan_head_shot.jpg
 personalSite: https://djeb20.github.io/
 scholar: https://scholar.google.com/citations?hl=en&user=gNqlmyEAAAAJ
 slug: dan-beechey

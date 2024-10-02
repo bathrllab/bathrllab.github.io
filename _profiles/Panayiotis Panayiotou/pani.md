@@ -4,7 +4,7 @@ supervisor: Özgür Şimşek
 researchInterests: ['Reinforcement learning', 'Causality', 'Knowledge Representation', 'Continual Learning']
 linkedIn: https://www.linkedin.com/in/panispani
 twitter: https://twitter.com/panispani
-profileImg: Panayiotis\ Panayiotou/pani.png
+profileImg: pani.png
 personalSite: https://panispani.com
 scholar: https://scholar.google.com/citations?user=AfaKtVwAAAAJ
 slug: pani

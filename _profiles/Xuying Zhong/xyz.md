@@ -4,7 +4,7 @@ supervisor: Özgür Şimşek
 secondarySupervisor: Janina Hoffmann
 researchInterests: ['Reinforcement Learning', 'Explainable AI', 'Trust in AI', 'Human-Centred AI']
 linkedIn: https://www.linkedin.com/in/xuying-zhong-180464138/
-profileImg: ./xyz.png
+profileImg: xyz.png
 slug: xuying-zhong
 ---
 
