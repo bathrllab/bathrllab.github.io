@@ -5,8 +5,10 @@
        alt="{{member.title}}">
 
   <div class="media-body">
-    <h4 class="name">{{ member.name }}</h4>
-    <p>{{member.role}}</p>
+    <h3 class="name">{{ member.name }}</h3>
+    {% if member.role %}
+      <p class="role">{{member.role}}</p>
+    {% endif %}
     {%- include team_member_social.html -%}
   </div>
 </li>
