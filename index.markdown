@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+![Group photo 2023-2024](/assets/img/group_2324.jpg){: .crop-image }
+
+The BathRLLab is a machine learning research lab in the Department of Computer Science at the University of Bath that is focused on reinforcement learning.
