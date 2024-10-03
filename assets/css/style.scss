@@ -132,3 +132,22 @@ ul.list-inline {
 .media-body {
     margin-left: 20px; /* Adds space between the image and the media body */
 }
+
+// research
+.authors {
+    font-size: 100%;
+}
+.journal {
+    font-size: smaller;
+}
+.paper {
+    margin-bottom: 20px;
+}
+.paper-title {
+    font-weight: bold;
+    font-size: larger;
+    color: $primary-color;
+}
+div#papers {
+    margin-top: 30px;
+}
