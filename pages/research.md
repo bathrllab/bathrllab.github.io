@@ -1,5 +1,6 @@
 ---
-layout: default
+title: Research
+layout: research
 ---
 
-Paper list
+<div id="papers"></div>
