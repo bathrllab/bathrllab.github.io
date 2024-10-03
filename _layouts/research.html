@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      {% if site.title and site.title != page.title %}
+      <h1 id="main_bar">
+      <div class="topnav" id="topnav">
+        <img id="lab_logo" src="/assets/img/logo.png">
+        <div class="page_buttons">
+            <a href="/index.html" class="btn">Home</a>
+            <a href="/pages/people.html" class="btn">People</a>
+            <a href="/pages/research.html" class="btn">Research</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="expand()">
+            <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      </h1>
+      {% endif %}
+
+    <div class="main_content">
+        {{ content }}
+    </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+      function expand() {
+        var x = document.getElementById("topnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+        <script>
+            // Function to replace LaTeX-style escaped characters with Unicode equivalents
+            function decodeLatexString(str) {
+                const accentMap = {
+                    '`': '\u0300', // grave accent
+                    "'": '\u0301', // acute accent
+                    '^': '\u0302', // circumflex
+                    '"': '\u0308', // diaeresis (umlaut)
+                    '~': '\u0303', // tilde
+                    'c': '\u0327', // cedilla
+                    'k': '\u0328', // ogonek
+                    '=': '\u0304', // macron
+                    '.': '\u0307', // dot above
+                    'u': '\u0306', // breve
+                    'v': '\u030C', // caron
+                    'H': '\u030B', // double acute
+                };
+
+                // Updated regex to capture \i as a single unit
+                const regex = /(\{)?\\([`'"^~=.uvHck])\{?(\\i|[a-zA-Z])\}?(\})?/g;
+
+                return str.replace(regex, (match, openBrace, accent, letter, closeBrace) => {
+                    const combiningMark = accentMap[accent];
+
+                    // Handle LaTeX-specific \i for dotless 'i'
+                    if (letter === '\\i') {
+                        letter = 'ı'; // Unicode for dotless 'i'
+                    }
+
+                    if (combiningMark) {
+                        return letter + combiningMark;
+                    } else {
+                        return match;
+                    }
+                }).normalize('NFC'); // Normalize to compose characters
+            }
+            fetch('/assets/papers.txt')
+                .then(response => response.text())
+                .then(text => {
+                    // Split the text into entries based on '@article{'
+                    let entries = text.split('@article{');
+                    entries.shift(); // Remove the first empty element if any
+    
+                    let papersDiv = document.getElementById('papers');
+    
+                    entries.forEach(entry => {
+                        entry = entry.trim();
+                        // Extract content inside the braces
+                        let endIndex = entry.lastIndexOf('}');
+                        let content = entry.substring(0, endIndex);
+    
+                        let fields = {};
+                        // Split the content into lines and extract key-value pairs
+                        content.split('\n').forEach(line => {
+                            line = line.trim();
+                            let equalIndex = line.indexOf('=');
+                            if (equalIndex > -1) {
+                                let key = line.substring(0, equalIndex).trim();
+                                let value = line.substring(equalIndex + 1).trim();
+                                value = value.replace(/^{|},?$|^"|"$|^{|}$/g, '').trim(); // Remove braces, quotes, and commas
+                                fields[key] = decodeLatexString(value); // Decode LaTeX-style strings
+                            }
+                        });
+    
+                        // Create HTML elements for each paper
+                        let paperDiv = document.createElement('div');
+                        paperDiv.classList.add('paper');
+    
+                        let titleLink = document.createElement('a');
+                        titleLink.classList.add('paper-title');
+                        titleLink.href = fields['link'] || '#';
+                        titleLink.textContent = fields['title'] || 'No Title';
+    
+                        paperDiv.appendChild(titleLink);
+    
+                        let authorsDiv = document.createElement('div');
+                        authorsDiv.classList.add('authors');
+                        authorsDiv.textContent = fields['author'] || 'No Authors';
+                        paperDiv.appendChild(authorsDiv);
+    
+                        let journalDiv = document.createElement('div');
+                        journalDiv.classList.add('journal');
+                        journalDiv.textContent = (fields['journal'] || 'No Journal') + ', ' + (fields['year'] || 'No Year');
+                        paperDiv.appendChild(journalDiv);
+    
+                        // Add some space between papers
+                        paperDiv.style.marginBottom = '20px';
+    
+                        papersDiv.appendChild(paperDiv);
+                    });
+                })
+                .catch(error => console.error('Error fetching the papers:', error));
+        </script>
+  </body>
+</html>
