@@ -1,0 +1,62 @@
+@article{panayiotou2024curricula,
+  title={Curricula for Learning Robust Policies over Factored State Representations in Changing Environments},
+  author={Panayiotou, Panayiotis and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
+  journal={17th European Workshop on Reinforcement Learning (EWRL)},
+  year={2024},
+  link={https://arxiv.org/pdf/2409.09169}
+}
+@article{jucys2024interpretability,
+  title={Interpretability in Action: Exploratory Analysis of VPT, a Minecraft Agent},
+  author={Jucys, Karolis and Adamopoulos, George and Hamidi, Mehrab and Milani, Stephanie and Samsami, Mohammad Reza and Zholus, Artem and Joseph, Sonia and Richards, Blake and Rish, Irina and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
+  journal={Mechanistic Interpretability Workshop at ICML},
+  year={2024},
+  link={https://arxiv.org/pdf/2407.12161}
+}
+@article{evans2023creating,
+  title={Creating multi-level skill hierarchies in reinforcement learning},
+  author={Evans, Joshua B and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  pages={48472--48484},
+  year={2023},
+  link={https://proceedings.neurips.cc/paper_files/paper/2023/file/97b73904e88cc1dc0a3485595eda3753-Paper-Conference.pdf}
+}
+@article{ramanauskas2023colour,
+  title={Colour versus Shape Goal Misgeneralization in Reinforcement Learning: A Case Study},
+  author={Ramanauskas, Karolis and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
+  journal={Workshop on Attributing Model Behavior at Scale at NeurIPS},
+  year={2023},
+  link={https://arxiv.org/pdf/2312.03762}
+}
+@article{lewis2023reformulating,
+  title={Reformulating Reactivity Design for Data-Efficient Machine Learning},
+  author={Lewis-Atwell, Toby and Beechey, Daniel and Şimşek, Özgür and Grayson, Matthew N},
+  journal={ACS catalysis},
+  volume={13},
+  number={20},
+  pages={13506--13515},
+  year={2023},
+  publisher={ACS Publications}
+}
+@inproceedings{saunders2023resource,
+  title={Resource-Constrained Station-Keeping for Latex Balloons Using Reinforcement Learning},
+  author={Saunders, Jack and Prenevost, Lo{\"\i}c and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r and Hunter, Alan and Li, Wenbin},
+  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={1102--1109},
+  year={2023},
+  organization={IEEE}
+}
+@inproceedings{beechey2023explaining,
+  title={Explaining reinforcement learning with shapley values},
+  author={Beechey, Daniel and Smith, Thomas MS and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
+  booktitle={International Conference on Machine Learning},
+  pages={2003--2014},
+  year={2023},
+  organization={PMLR}
+}
+@article{saunders2023resource,
+  title={Resource-Constrained Station-Keeping for Helium Balloons using Reinforcement Learning},
+  author={Saunders, Jack and Prenevost, Lo{\"\i}c and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r and Hunter, Alan and Li, Wenbin},
+  journal={arXiv preprint arXiv:2303.01173},
+  year={2023}
+}
