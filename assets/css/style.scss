@@ -77,7 +77,7 @@ $primary-color: #395c7f;
 // people.md
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    grid-template-columns: repeat(auto-fit, 300px); /* N equal-width columns */
     gap: 20px; /* Space between columns */
     margin-bottom: 20px; /* Space below the row */
 }
