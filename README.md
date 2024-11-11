@@ -60,6 +60,9 @@ The format of the file is just a collection of BibTeX entries. Just paste your B
 ```
 
 ## How do I run this locally
+
+### MacOs
+
 ```bash
 # Install ruby. If you are not on Mac check the ruby website on how to install and add to your path.
 brew install ruby
@@ -75,11 +78,37 @@ gem env
 # Add EXECUTABLE DIRECTORY to PATH if it's not by adding this to .zshrc
 export PATH="/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH"
 source ~/.zshrc
-# Create empty template
-jekyll new .
 # Install dependencies
 bundle install
 # Build and serve
 bundle exec jekyll serve
 ```
 
+### Linux
+
+```bash
+# Install Ruby (Debian/Ubuntu)
+sudo apt update
+sudo apt install ruby-full
+# Verify installation.
+ruby -v 
+# Install packages
+gem install bundler jekyll
+# Make sure EXECUTABLE DIRECTORY is in your PATH
+# Run this command to find the path where gems are installed
+gem env
+# If the EXECUTABLE DIRECTORY is not in PATH, add it to .bashrc or .zshrc
+# Replace /path/to/gem/bin with the actual path shown by `gem env`
+echo 'export PATH="/path/to/gem/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+# Install dependencies
+bundle install
+# Build and serve the Jekyll site
+bundle exec jekyll serve
+```
+
+### Misc
+```bash
+# Create a new Jekyll site in the current directory
+jekyll new .
+```
