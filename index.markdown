@@ -8,4 +8,4 @@ layout: home
 
 ![Group photo 2023-2024](/assets/img/group_2324.jpg){: .crop-image }
 
-The Bath Reinforcement Learning Lab is a machine learning research group at the Department of Computer Science at the University of Bath. We focus on core reinforcement learning research, including hierarchical RL, intrinsic motivation, explainability, causality, and generalization.
+The Bath Reinforcement Learning Lab is a machine learning research group in the Department of Computer Science at the University of Bath. We focus on core reinforcement learning research, including hierarchical RL, intrinsic motivation, explainability, causality, and generalisation.
