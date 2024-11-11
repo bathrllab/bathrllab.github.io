@@ -9,9 +9,8 @@ profileImg: strongest_avenger.png
 slug: tom-cannon
 ---
 
-Personal website: www.tomcannon.wiki
+Personal website: www.tpcannon.com
 
-I am focused on researching how discrete multi-level hierarchical options can be used to improve interpolation and extrapolation.
-See my github for current projects and more information: https://github.com/x4nnon
+I am focused on researching how multi-level hierarchical options can be used to improve generalisation.
 
 If you wish to collaborate: tc2034@bath.ac.uk
