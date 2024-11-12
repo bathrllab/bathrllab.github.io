@@ -84,8 +84,8 @@
             fetch('/assets/papers.txt')
                 .then(response => response.text())
                 .then(text => {
-                    // Split the text into entries based on '@article{'
-                    let entries = text.split('@article{');
+                    // Split the text into entries based on any BibTeX entry type
+                    let entries = text.split(/@\w+{/);
                     entries.shift(); // Remove the first empty element if any
     
                     let papersDiv = document.getElementById('papers');
@@ -124,10 +124,12 @@
                         authorsDiv.classList.add('authors');
                         authorsDiv.textContent = fields['author'] || 'No Authors';
                         paperDiv.appendChild(authorsDiv);
-    
+
                         let journalDiv = document.createElement('div');
                         journalDiv.classList.add('journal');
-                        journalDiv.textContent = (fields['journal'] || 'No Journal') + ', ' + (fields['year'] || 'No Year');
+                        // Check for 'journal' or 'booktitle' field
+                        let journalOrBooktitle = fields['journal'] || fields['booktitle'] || 'No Journal/Booktitle';
+                        journalDiv.textContent = journalOrBooktitle + ', ' + (fields['year'] || 'No Year');
                         paperDiv.appendChild(journalDiv);
     
                         // Add some space between papers
