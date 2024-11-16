@@ -36,7 +36,8 @@
   number={20},
   pages={13506--13515},
   year={2023},
-  publisher={ACS Publications}
+  publisher={ACS Publications},
+  link={https://pubs.acs.org/doi/full/10.1021/acscatal.3c02513}
 }
 @inproceedings{saunders2023resource,
   title={Resource-Constrained Station-Keeping for Latex Balloons Using Reinforcement Learning},
@@ -44,7 +45,8 @@
   booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   pages={1102--1109},
   year={2023},
-  organization={IEEE}
+  organization={IEEE},
+  link={https://ieeexplore.ieee.org/abstract/document/10341711/}
 }
 @inproceedings{beechey2023explaining,
   title={Explaining reinforcement learning with shapley values},
@@ -52,11 +54,13 @@
   booktitle={International Conference on Machine Learning},
   pages={2003--2014},
   year={2023},
-  organization={PMLR}
+  organization={PMLR},
+  link={https://proceedings.mlr.press/v202/beechey23a.html}
 }
 @article{saunders2023resource,
   title={Resource-Constrained Station-Keeping for Helium Balloons using Reinforcement Learning},
   author={Saunders, Jack and Prenevost, Lo{\"\i}c and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r and Hunter, Alan and Li, Wenbin},
   journal={arXiv preprint arXiv:2303.01173},
-  year={2023}
+  year={2023},
+  link={https://arxiv.org/abs/2303.01173}
 }
