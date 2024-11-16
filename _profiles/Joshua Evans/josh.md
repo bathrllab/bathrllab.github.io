@@ -1,8 +1,14 @@
 ---
 name: Joshua B. Evans
 supervisor: Özgür Şimşek
-researchInterests: ['Reinforcement Learning', 'Hierarchical Reinforcement Learning', 'Skill Discovery', 'Graph-Based Skill Discovery Methods']
-linkedIn: www.linkedin.com/in/jb-evans
+researchInterests:
+  [
+    "Reinforcement Learning",
+    "Hierarchical Reinforcement Learning",
+    "Skill Discovery",
+    "Graph-Based Skill Discovery Methods",
+  ]
+linkedIn: https://www.linkedin.com/in/jb-evans
 twitter: https://twitter.com/TheJEvns/
 personalSite: https://people.bath.ac.uk/jbe25/index.html
 profileImg: jb_evans.png
@@ -14,6 +20,7 @@ slug: joshua-b-evans
 My research focuses on the problem of skill discovery: how should autonomous agents develop increasingly complex behaviours on their own, without human intervention, as they interact with the world? This is a central unanswered question in artificial intelligence.
 
 ## Recent Publications
+
 - Evans, J.B. and Şimşek, Ö., 2023. "Creating Multi-Level Skill Hierarchies in Reinforcement Learning". In _Advances in Neural Information Processing Systems_, 36 (NeurIPS '23).
 
 # Teaching

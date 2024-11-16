@@ -1,9 +1,15 @@
 ---
-redirect: https://the-scarllette.github.io/
 name: Scarllette Ellis
 supervisor: Özgür Şimşek
-researchInterests: ['Reinforcement Learning', 'Information Theory', 'Skill Acquisition', 'Hierarchical Reinforcement Learning']
+researchInterests:
+  [
+    "Reinforcement Learning",
+    "Information Theory",
+    "Skill Acquisition",
+    "Hierarchical Reinforcement Learning",
+  ]
 linkedIn: https://www.linkedin.com/in/scarllette-ellis-7ab83b223/
+personalSite: https://the-scarllette.github.io/
 profileImg: scarllette_ellis.png
 slug: scarllette-ellis
 ---

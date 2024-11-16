@@ -2,9 +2,15 @@
 name: Tom Cannon
 supervisor: Özgür Şimşek
 secondarySupervisor: Janina Hoffmann
-researchInterests: ['Reinforcement Learning', 'Hierarchical RL', 'Program Synthesis', 'Symbolic AI', 'Generalisation']
-linkedIn: www.linkedin.com/in/tom-cannon-3282a4100
-twitter: link
+researchInterests:
+  [
+    "Reinforcement Learning",
+    "Hierarchical RL",
+    "Program Synthesis",
+    "Symbolic AI",
+    "Generalisation",
+  ]
+linkedIn: https://www.linkedin.com/in/tom-cannon-3282a4100
 profileImg: strongest_avenger.png
 slug: tom-cannon
 personalSite: https://tpcannon.com

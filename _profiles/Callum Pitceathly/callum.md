@@ -2,11 +2,15 @@
 name: Callum Pitceathly
 supervisor: Özgür Şimşek
 secondarySupervisor: Mike Tipping
-researchInterests: ['Reinforcement Learning', 'Skill Discovery', 'Combining Skills', 'Hierarchical Reinforcement Learning']
-linkedIn: https://www.linkedin.com/in/misc/
-profileImg: default_profile.webp
-twitter: "https://www.twitter.com/"
-personalSite: https://www.test.com
+researchInterests:
+  [
+    "Reinforcement Learning",
+    "Skill Discovery",
+    "Combining Skills",
+    "Hierarchical Reinforcement Learning",
+  ]
+linkedIn: https://linkedin.com/in/callum-pitceathly-0383b11b3
+profileImg: callum.jpeg
+personalSite: https://callumpit.github.io/
 slug: misc
 ---
-
