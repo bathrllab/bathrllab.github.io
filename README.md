@@ -1,13 +1,15 @@
 # Bath RL website
 
 Table of Contents:
-- *I want to add myself to the website*
-- *I want to change my photo*
-- *I want to change my personal links*
-- *I want to add a paper*
-- *How do I run this locally*
+
+- _I want to add myself to the website_
+- _I want to change my photo_
+- _I want to change my personal links_
+- _I want to add a paper_
+- _How do I run this locally_
 
 ## I want to add myself to the website
+
 Add a photo in `/assets/img/` with a simple title e.g. `pani.jpeg`.
 Create a folder with your name in `/_profiles/` and inside add a markdown file (extension .md). Below is an example markdown file with all the supported fields:
 
@@ -22,12 +24,14 @@ scholar: https://scholar.google.com/citations?user=AfaKtVwAAAAJ
 ---
 ```
 
-There is also a boolean "staff" field, to be only set for stuff e.g. Ozgur.
+There is also a boolean "staff" field, to be only set for staff e.g. Ozgur.
 
 ## I want to change my photo
+
 Photos are in `/assets/img/`. Specify the right image path in your personal profile (these are located in `/_profiles/` in a folder with your name, saved as a markdown .md file).
 
 ## I want to change my personal links
+
 Personal profiles are in `/_profiles/`. You need to add a folder with your name and inside a markdown file (.md at the end). For now all the supported fields are the following:
 
 ```
@@ -41,9 +45,10 @@ scholar: https://scholar.google.com/citations?user=AfaKtVwAAAAJ
 ---
 ```
 
-There is also a boolean "staff" field, to be only set for stuff e.g. Ozgur.
+There is also a boolean "staff" field, to be only set for staff e.g. Ozgur.
 
 ## I want to add a paper
+
 Papers are in /assets/papers.txt.
 The format of the file is just a collection of BibTeX entries. Just paste your BibTeX entry at the right chronological order. **IMPORTANT:** if you want to add a link to your paper add an extra field in BibTeX called "link". For example,
 
@@ -91,7 +96,7 @@ bundle exec jekyll serve
 sudo apt update
 sudo apt install ruby-full
 # Verify installation.
-ruby -v 
+ruby -v
 # Install packages
 gem install bundler jekyll
 # Make sure EXECUTABLE DIRECTORY is in your PATH
@@ -108,6 +113,7 @@ bundle exec jekyll serve
 ```
 
 ### Misc
+
 ```bash
 # Create a new Jekyll site in the current directory
 jekyll new .
