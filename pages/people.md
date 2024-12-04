@@ -6,6 +6,7 @@ layout: default
 <h2 class="mb-3"><a id="staff"></a>Staff</h2>
 
 {% assign members = site.profiles | where: 'staff', 'true' | sort: 'name' %}
+
 <div class="grid-container">
 {% for member in members %}
     <div class="grid-item">
