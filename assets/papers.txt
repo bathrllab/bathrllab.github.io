@@ -13,7 +13,7 @@
   link={https://arxiv.org/pdf/2407.12161}
 }
 @article{evans2023creating,
-  title={Creating multi-level skill hierarchies in reinforcement learning},
+  title={Creating Multi-Level Skill Hierarchies in Reinforcement Learning},
   author={Evans, Joshua B and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
   journal={Advances in Neural Information Processing Systems},
   volume={36},
@@ -49,7 +49,7 @@
   link={https://ieeexplore.ieee.org/abstract/document/10341711/}
 }
 @inproceedings{beechey2023explaining,
-  title={Explaining reinforcement learning with shapley values},
+  title={Explaining Reinforcement Learning with Shapley Values},
   author={Beechey, Daniel and Smith, Thomas MS and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
   booktitle={International Conference on Machine Learning},
   pages={2003--2014},
@@ -63,4 +63,29 @@
   journal={arXiv preprint arXiv:2303.01173},
   year={2023},
   link={https://arxiv.org/abs/2303.01173}
+}
+@article{lichtenberg2019iterative,
+  title={Iterative Policy-Space Expansion in Reinforcement Learning},
+  author={Lichtenberg, Jan Malte and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
+  journal={Workshop on Biological and Artificial Reinforcement Learning at the 33rd Conference on Neural Information Processing Systems},
+  year={2019},
+  link={https://arxiv.org/pdf/1912.02532}
+}
+@inproceedings{lichtenberg2019regularization,
+  title={Regularization in Directable Environments with Application to Tetris},
+  author={Lichtenberg, Jan Malte and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
+  booktitle={International Conference on Machine Learning},
+  pages={3953--3962},
+  year={2019},
+  organization={PMLR},
+  link={https://proceedings.mlr.press/v97/lichtenberg19a/lichtenberg19a.pdf}
+}
+@inproceedings{lichtenberg2017simple,
+  title={Simple Regression Models},
+  author={Lichtenberg, Jan Malte and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
+  booktitle={Imperfect decision makers: Admitting real-world rationality},
+  pages={13--25},
+  year={2017},
+  organization={PMLR},
+  link={https://proceedings.mlr.press/v58/lichtenberg17a/lichtenberg17a.pdf}
 }
