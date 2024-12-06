@@ -12,4 +12,4 @@ The Bath Reinforcement Learning Lab is a machine learning research group in the 
 
 <div style="padding-top: 1rem;"></div>
 
-![Group photo 2023-2024](/assets/img/group2425.webp){: .crop-image }
+<!-- ![Group photo 2023-2024](/assets/img/group2425.webp){: .crop-image } -->

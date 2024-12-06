@@ -1,8 +1,9 @@
 ---
 name: Andreas Theophilou
-profileImg: default_profile.webp
+profileImg: andreas.png
 supervisor: Özgür Şimşek
 researchInterests: ["Reinforcement learning"]
-personalSite: https://researchportal.bath.ac.uk/en/persons/andreas-theophilou
+linkedIn: https://www.linkedin.com/in/andreas-theophilou-2766531a/
+personalSite: https://github.com/AndreasTheo
 slug: andreas
 ---
