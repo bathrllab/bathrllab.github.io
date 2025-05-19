@@ -1,7 +1,13 @@
 ---
 name: Panayiotis Panayiotou (Pani)
 supervisor: Özgür Şimşek
-researchInterests: ['Reinforcement learning', 'Causality', 'Knowledge Representation', 'Continual Learning']
+researchInterests:
+  [
+    "Reinforcement learning",
+    "Causality",
+    "Knowledge Representation",
+    "Continual Learning",
+  ]
 linkedIn: https://www.linkedin.com/in/panispani
 twitter: https://twitter.com/panispani
 profileImg: pani.png

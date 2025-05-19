@@ -6,7 +6,7 @@ researchInterests:
   ["Reinforcement Learning", "Interpretability", "Graph Theory"]
 linkedIn: https://www.linkedin.com/in/sophia-jones-0/
 twitter: https://twitter.com/Sopjone
-profileImg: sophia.png
+profileImg: sophia.jpg
 personalSite: https://s0phia-.github.io/
 slug: sophia-jones
 ---
