@@ -10,6 +10,7 @@
   title={Enhanced Exploration via Variational Learned Priors},
   author={Nicholson, Jessica and Goodier, Joseph S and Patel, Akshil and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
   booktitle={Intrinsically-Motivated and Open-Ended Learning Workshop@ NeurIPS2024},
+  year={2024},
   link={https://openreview.net/pdf?id=R395UgreTH}
 }
 @inproceedings{
