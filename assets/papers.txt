@@ -1,10 +1,33 @@
+@inproceedings{
+  cannon2025accelerating,
+  title={Accelerating Task Generalisation with Multi-Level Skill Hierarchies},
+  author={Thomas P Cannon and {\"O}zg{\"u}r {\c{S}}im{\c{s}}ek},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025},
+  link={https://openreview.net/forum?id=KfeRfxTemB}
+}
+@inproceedings{nicholsonenhanced,
+  title={Enhanced Exploration via Variational Learned Priors},
+  author={Nicholson, Jessica and Goodier, Joseph S and Patel, Akshil and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
+  booktitle={Intrinsically-Motivated and Open-Ended Learning Workshop@ NeurIPS2024},
+  link={https://openreview.net/pdf?id=R395UgreTH}
+}
+@inproceedings{
+  cannon2024hierarchical,
+  title={Hierarchical Orchestra of Policies},
+  author={Thomas P Cannon and {\"O}zg{\"u}r {\c{S}}im{\c{s}}ek},
+  booktitle={Intrinsically-Motivated and Open-Ended Learning Workshop @NeurIPS2024},
+  year={2024},
+  link={https://openreview.net/forum?id=Oc0x7csK0c}
+}
 @inproceedings{saunders2024identifying,
   title={Identifying Optimal Launch Sites of High-Altitude Latex-Balloons using Bayesian Optimisation for the Task of Station-Keeping},
   author={Saunders, Jack and Saeedi, Sajad and Hartshorne, Adam and Xu, Binbin and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r and Hunter, Alan and Li, Wenbin},
   booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   pages={13128--13135},
   year={2024},
-  organization={IEEE}
+  organization={IEEE},
+  link={https://ieeexplore.ieee.org/document/10802275}
 }
 @article{panayiotou2024curricula,
   title={Curricula for Learning Robust Policies over Factored State Representations in Changing Environments},
