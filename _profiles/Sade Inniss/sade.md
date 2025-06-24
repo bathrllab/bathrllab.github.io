@@ -6,6 +6,6 @@ linkedIn: https://www.linkedin.com/in/sade-inniss-846439302
 researchInterests:
   ["Hierarchical Reinforcement learning", "NeuroSymbolic AI", "Algebraic RL"]
 slug: sade
-role: Computer Science and Mathematics Undergraduate (MComp)
+role: MComp CS & Maths
 intern: yes
 ---
