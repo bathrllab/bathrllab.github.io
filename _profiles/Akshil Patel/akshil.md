@@ -13,6 +13,5 @@ researchInterests:
 linkedIn: https://www.linkedin.com/in/akshil-patel/
 profileImg: default_profile.webp
 profileImg: akshil.jpg
-personalSite: https://www.akshilpatel.com/
 slug: akshil-patel
 ---
