@@ -1,3 +1,19 @@
+@InProceedings{pmlr-v267-poinsot25a,
+  title = 	 {Position: Causal Machine Learning Requires Rigorous Synthetic Experiments for Broader Adoption},
+  author =       {Poinsot, Audrey and Panayiotou, Panayiotis and Leite, Alessandro and Chesneau, Nicolas and \c{S}im\c{s}ek, \"{O}zg\"{u}r and Schoenauer, Marc},
+  booktitle = 	 {Proceedings of the 42nd International Conference on Machine Learning},
+  pages = 	 {81995--82015},
+  year = 	 {2025},
+  editor = 	 {Singh, Aarti and Fazel, Maryam and Hsu, Daniel and Lacoste-Julien, Simon and Berkenkamp, Felix and Maharaj, Tegan and Wagstaff, Kiri and Zhu, Jerry},
+  volume = 	 {267},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {13--19 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v267/main/assets/poinsot25a/poinsot25a.pdf},
+  url = 	 {https://proceedings.mlr.press/v267/poinsot25a.html},
+  abstract = 	 {Causal machine learning has the potential to revolutionize decision-making by combining the predictive power of machine learning algorithms with the theory of causal inference. However, these methods remain underutilized by the broader machine learning community, in part because current empirical evaluations do not permit assessment of their reliability and robustness, undermining their practical utility. Specifically, one of the principal criticisms made by the community is the extensive use of synthetic experiments. We argue, on the contrary, that <b>synthetic experiments are essential and necessary to precisely assess and understand the capabilities of causal machine learning methods</b>. To substantiate our position, we critically review the current evaluation practices, spotlight their shortcomings, and propose a set of principles for conducting rigorous empirical analyses with synthetic data. Adopting the proposed principles will enable comprehensive evaluations that build trust in causal machine learning methods, driving their broader adoption and impactful real-world use.},
+  link={https://proceedings.mlr.press/v267/poinsot25a.html}
+}
 @inproceedings{
   cannon2025accelerating,
   title={Accelerating Task Generalisation with Multi-Level Skill Hierarchies},
