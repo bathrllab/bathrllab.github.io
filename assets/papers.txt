@@ -2,12 +2,13 @@
   title={Novel Exploration via Orthogonality},
   author={Theophilou, Andreas and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
   booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+  year={2025},
   link={https://openreview.net/pdf?id=yJS1eZSNUv}
 }
 @article{beechey2025approximating,
   title={Approximating Shapley Explanations in Reinforcement Learning},
   author={Beechey, Daniel and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
-  journal={arXiv preprint arXiv:2511.06094},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
   year={2025},
   link={https://arxiv.org/pdf/2511.06094},
 }
