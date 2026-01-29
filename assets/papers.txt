@@ -1,3 +1,16 @@
+@inproceedings{theophilounovel,
+  title={Novel Exploration via Orthogonality},
+  author={Theophilou, Andreas and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+  link={https://openreview.net/pdf?id=yJS1eZSNUv}
+}
+@article{beechey2025approximating,
+  title={Approximating Shapley Explanations in Reinforcement Learning},
+  author={Beechey, Daniel and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
+  journal={arXiv preprint arXiv:2511.06094},
+  year={2025},
+  link={https://arxiv.org/pdf/2511.06094},
+}
 @InProceedings{pmlr-v267-poinsot25a,
   title = 	 {Position: Causal Machine Learning Requires Rigorous Synthetic Experiments for Broader Adoption},
   author =       {Poinsot, Audrey and Panayiotou, Panayiotis and Leite, Alessandro and Chesneau, Nicolas and \c{S}im\c{s}ek, \"{O}zg\"{u}r and Schoenauer, Marc},
