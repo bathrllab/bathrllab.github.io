@@ -6,7 +6,9 @@
 
   <div class="media-body">
     <h3 class="name">{{ member.name }}</h3>
-    {% if member.role %}
+    {% if include.is_alumni and member.alumniRole %}
+      <p class="role">{{member.alumniRole}}</p>
+    {% elsif member.role %}
       <p class="role">{{member.role}}</p>
     {% endif %}
     {%- include team_member_social.html -%}

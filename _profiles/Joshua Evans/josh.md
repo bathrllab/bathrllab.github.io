@@ -13,6 +13,10 @@ twitter: https://twitter.com/TheJEvns/
 personalSite: https://people.bath.ac.uk/jbe25/index.html
 profileImg: jb_evans.png
 slug: joshua-b-evans
+role: Lecturer
+alumniRole: Joined the University of Bath as a Lecturer
+staff: yes
+alumni: yes
 ---
 
 # Research

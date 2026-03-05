@@ -9,9 +9,18 @@ layout: default
 
 <div class="grid-container">
 {% for member in members %}
+    {% if member.name == 'Özgür Şimşek' %}
     <div class="grid-item">
         {% include team_member.html member=member %}
     </div>
+    {% endif %}
+{% endfor %}
+{% for member in members %}
+    {% if member.name != 'Özgür Şimşek' %}
+    <div class="grid-item">
+        {% include team_member.html member=member %}
+    </div>
+    {% endif %}
 {% endfor %}
 </div>
 
@@ -46,7 +55,7 @@ layout: default
 <div class="grid-container">
 {% for member in members %}
     <div class="grid-item">
-        {% include team_member.html member=member %}
+        {% include team_member.html member=member is_alumni=true %}
     </div>
 {% endfor %}
 </div>

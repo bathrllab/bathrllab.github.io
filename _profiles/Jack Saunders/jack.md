@@ -7,6 +7,8 @@ profileImg: jack.jpg
 slug: jack-saunders
 personalSite: https://www.SaundersJ.dev
 scholar: https://scholar.google.com/citations?user=mqmHa5EAAAAJ
+role: Joined AECOM as a Reinforcement Learning Engineer
+alumni: yes
 ---
 
 Investigating the application of reinforcement learning for high-altitude platforms and other aerial vehicles for urgent disaster response.
