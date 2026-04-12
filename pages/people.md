@@ -36,7 +36,7 @@ layout: default
 {% endfor %}
 </div>
 
-<h2 class="mb-3"><a id="intern"></a>Interns</h2>
+<h2 class="mb-3"><a id="intern"></a>Other members</h2>
 
 {% assign members = site.profiles | where: 'intern', true | sort: 'name' %}
 
