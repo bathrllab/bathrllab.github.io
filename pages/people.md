@@ -59,3 +59,10 @@ layout: default
     </div>
 {% endfor %}
 </div>
+
+<h2 class="mb-3"><a id="interns-list"></a>Interns</h2>
+
+<ul>
+  <li><a href="https://www.linkedin.com/in/farazeid/">Farahmand Zeidaabadi</a> (Summer 2025: June &ndash; September)</li>
+  <li><a href="https://sade-li.github.io/index.html">Sade Inniss</a> (Summer 2025: June &ndash; September)</li>
+</ul>
