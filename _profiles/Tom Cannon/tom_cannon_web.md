@@ -13,10 +13,7 @@ researchInterests:
 linkedIn: https://www.linkedin.com/in/tom-cannon-3282a4100
 profileImg: strongest_avenger.png
 slug: tom-cannon
-personalSite: https://tpcannon.com
 ---
-
-Personal website: www.tpcannon.com
 
 I am focused on researching how multi-level hierarchical options can be used to improve generalisation.
 
