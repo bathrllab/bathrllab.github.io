@@ -17,6 +17,8 @@ profileImg: dan_head_shot.jpg
 personalSite: https://djeb20.github.io/
 scholar: https://scholar.google.com/citations?hl=en&user=gNqlmyEAAAAJ
 slug: dan-beechey
+alumni: yes
+alumniRole: Joined Huawei Noah's Ark Lab as a Research Scientist
 ---
 
 I am a final-year PhD student at the Centre for Doctoral Training in Accountable, Responsible and Transparent AI (ART-AI), University of Bath, specialising in reinforcement learning.
