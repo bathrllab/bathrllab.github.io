@@ -1,3 +1,26 @@
+@inproceedings{panayiotou2026c,
+  title={CausalProfiler: Generating Synthetic Benchmarks for Rigorous and Transparent Evaluation of Causal Machine Learning},
+  author={Panayiotou, Panayiotis and Poinsot, Audrey and Leite, Alessandro and Chesneau, Nicolas and Schoenauer, Marc and \c{S}im\c{s}ek, \"{O}zg\"{u}r},
+  booktitle={Proceedings of the 43rd International Conference on Machine Learning (ICML 2026)},
+  year={2026},
+  link={https://openreview.net/pdf?id=0wCl7EifsY}
+}
+@InProceedings{pmlr-v323-panayiotou26a,
+  title = 	 {Causal Discovery in Action: Learning Chain-Reaction Mechanisms from Interventions},
+  author =       {Panayiotou, Panayiotis and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
+  booktitle = 	 {Proceedings of the Fifth Conference on Causal Learning and Reasoning},
+  pages = 	 {1545--1571},
+  year = 	 {2026},
+  editor = 	 {Mazaheri, Bijan and Hanson, Niels Richard},
+  volume = 	 {323},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--08 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v323/main/assets/panayiotou26a/panayiotou26a.pdf},
+  url = 	 {https://proceedings.mlr.press/v323/panayiotou26a.html},
+  abstract = 	 {Causal discovery is challenging in general dynamical systems because, without strong structural assumptions, the underlying causal graph may not be identifiable even from interventional data. However, many real-world systems exhibit directional, cascade-like structure, in which components activate sequentially and upstream failures suppress downstream effects. We study causal discovery in such chain-reaction systems and show that the causal structure is uniquely identifiable from blocking interventions that prevent individual components from activating. We propose a minimal estimator with finite-sample guarantees, achieving exponential error decay and logarithmic sample complexity. Experiments on synthetic models and diverse chain-reaction environments demonstrate reliable recovery from a few interventions, while observational heuristics fail in regimes with delayed or overlapping causal effects.},
+  link={https://proceedings.mlr.press/v323/panayiotou26a.html}
+}
 @inproceedings{theophilounovel,
   title={Novel Exploration via Orthogonality},
   author={Theophilou, Andreas and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
