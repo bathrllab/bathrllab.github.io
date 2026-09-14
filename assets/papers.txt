@@ -1,3 +1,11 @@
+@inproceedings{steccanella2026learning,
+  title={Learning the Minimum Action Distance},
+  author={Lorenzo Steccanella and Joshua Benjamin Evans and {\"O}zg{\"u}r {\c{S}}im{\c{s}}ek and Anders Jonsson},
+  booktitle={Proceedings of the 43rd International Conference on Machine Learning},
+  year={2026},
+  organization={PMLR},
+  link={https://openreview.net/forum?id=ZnOnnJJghs}
+}
 @inproceedings{theophilounovel,
   title={Novel Exploration via Orthogonality},
   author={Theophilou, Andreas and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
