@@ -1,3 +1,11 @@
+@inproceedings{steccanella2026learning,
+  title={Learning the Minimum Action Distance},
+  author={Lorenzo Steccanella and Joshua Benjamin Evans and {\"O}zg{\"u}r {\c{S}}im{\c{s}}ek and Anders Jonsson},
+  booktitle={Proceedings of the 43rd International Conference on Machine Learning},
+  year={2026},
+  organization={PMLR},
+  link={https://openreview.net/pdf?id=ZnOnnJJghs}
+}
 @inproceedings{panayiotou2026c,
   title={CausalProfiler: Generating Synthetic Benchmarks for Rigorous and Transparent Evaluation of Causal Machine Learning},
   author={Panayiotou, Panayiotis and Poinsot, Audrey and Leite, Alessandro and Chesneau, Nicolas and Schoenauer, Marc and \c{S}im\c{s}ek, \"{O}zg\"{u}r},
