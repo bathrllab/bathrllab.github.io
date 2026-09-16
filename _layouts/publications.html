@@ -109,10 +109,6 @@
                         let journalOrBooktitle = fields['journal'] || fields['booktitle'] || 'No Journal/Booktitle';
                         journalDiv.textContent = journalOrBooktitle + ', ' + (fields['year'] || 'No Year');
                         paperDiv.appendChild(journalDiv);
-    
-                        // Add some space between papers
-                        paperDiv.style.marginBottom = '20px';
-    
                         papersDiv.appendChild(paperDiv);
                     });
                 })
