@@ -12,21 +12,7 @@
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
-      {% if site.title and site.title != page.title %}
-      <h1 id="main_bar">
-      <div class="topnav" id="topnav">
-        <img id="lab_logo" src="/assets/img/logo2.png">
-        <div class="page_buttons">
-            <a href="/index.html" class="btn">Home</a>
-            <a href="/pages/people.html" class="btn">People</a>
-            <a href="/pages/publications.html" class="btn">Publications</a>
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="expand()">
-            <i class="fa fa-bars"></i>
-        </a>
-      </div>
-      </h1>
-      {% endif %}
+      {% include header.html %}
 
     <div class="main_content">
         {{ content }}
@@ -36,14 +22,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>
       anchors.add();
-      function expand() {
-        var x = document.getElementById("topnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
     </script>
         <script>
             // Function to replace LaTeX-style escaped characters with Unicode equivalents
