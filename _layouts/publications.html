@@ -17,7 +17,7 @@
     <div class="main_content">
         {{ content }}
     </div>
-      
+
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>
@@ -59,21 +59,56 @@
                     }
                 }).normalize('NFC'); // Normalize to compose characters
             }
+            function getConferenceTag(fields) {
+                if (fields['tag']) return fields['tag'].trim();
+                if (fields['conference']) return fields['conference'].trim();
+
+                let venue = (fields['booktitle'] || fields['journal'] || '').trim();
+                if (!venue) return null;
+
+                // Workshops do not count as main conference tags
+                if (/workshop/i.test(venue)) {
+                    return null;
+                }
+
+                if (/icml|international conference on machine learning/i.test(venue)) {
+                    return 'ICML';
+                }
+                if (/neurips|neural information processing systems/i.test(venue)) {
+                    return 'NeurIPS';
+                }
+                if (/iclr|international conference on learning representations/i.test(venue)) {
+                    return 'ICLR';
+                }
+                if (/clear|conference on causal learning and reasoning/i.test(venue)) {
+                    return 'CLeaR';
+                }
+                if (/iros|international conference on intelligent robots and systems/i.test(venue)) {
+                    return 'IROS';
+                }
+                if (/rlc|reinforcement learning conference/i.test(venue)) {
+                    return 'RLC';
+                }
+
+
+                return null;
+            }
+
             fetch('/assets/papers.txt')
                 .then(response => response.text())
                 .then(text => {
                     // Split the text into entries based on any BibTeX entry type
                     let entries = text.split(/@\w+{/);
                     entries.shift(); // Remove the first empty element if any
-    
+
                     let papersDiv = document.getElementById('papers');
-    
+
                     entries.forEach(entry => {
                         entry = entry.trim();
                         // Extract content inside the braces
                         let endIndex = entry.lastIndexOf('}');
                         let content = entry.substring(0, endIndex);
-    
+
                         let fields = {};
                         // Split the content into lines and extract key-value pairs
                         content.split('\n').forEach(line => {
@@ -86,18 +121,27 @@
                                 fields[key] = decodeLatexString(value); // Decode LaTeX-style strings
                             }
                         });
-    
+
                         // Create HTML elements for each paper
                         let paperDiv = document.createElement('div');
                         paperDiv.classList.add('paper');
-    
+
                         let titleLink = document.createElement('a');
                         titleLink.classList.add('paper-title');
                         titleLink.href = fields['link'] || '#';
                         titleLink.textContent = fields['title'] || 'No Title';
-    
+
+                        let tag = getConferenceTag(fields);
+                        if (tag) {
+                            let tagSpan = document.createElement('span');
+                            let tagClass = 'conf-tag-' + tag.toLowerCase();
+                            tagSpan.classList.add('conf-tag', tagClass);
+                            tagSpan.textContent = tag;
+                            titleLink.appendChild(tagSpan);
+                        }
+
                         paperDiv.appendChild(titleLink);
-    
+
                         let authorsDiv = document.createElement('div');
                         authorsDiv.classList.add('authors');
                         authorsDiv.textContent = fields['author'] || 'No Authors';

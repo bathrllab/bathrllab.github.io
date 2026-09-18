@@ -50,7 +50,11 @@ There is also a boolean "staff" field, to be only set for staff e.g. Ozgur.
 ## I want to add a paper
 
 Papers are in /assets/papers.txt.
-The format of the file is just a collection of BibTeX entries. Just paste your BibTeX entry at the right chronological order. **IMPORTANT:** if you want to add a link to your paper add an extra field in BibTeX called "link". For example,
+The format of the file is just a collection of BibTeX entries. Just paste your BibTeX entry at the right chronological order. **IMPORTANT:**
+- If you want to add a link to your paper, add an extra field in BibTeX called `"link"`.
+- Main conference papers (ICML, ICLR, NeurIPS, CLeaR, IROS, RLC) are automatically tagged. To explicitly set or override a tag, add a `"tag"` field (e.g., `tag={ICML}`).
+
+For example:
 
 ```
 @article{evans2023creating,
