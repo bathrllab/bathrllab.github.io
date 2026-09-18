@@ -1,3 +1,10 @@
+@inproceedings{jucys2026multisteve,
+  title={MultiSTEVE-1s: A Model Zoo and Interpretability Suite for Instruction-Following Vision Agents},
+  author={Jucys, Karolis and Adamopoulos, George and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
+  booktitle={Mechanistic Interpretability Workshop at ICML 2026},
+  year={2026},
+  link={https://openreview.net/pdf?id=lY7mivdb4k}
+}
 @inproceedings{steccanella2026learning,
   title={Learning the Minimum Action Distance},
   author={Lorenzo Steccanella and Joshua Benjamin Evans and {\"O}zg{\"u}r {\c{S}}im{\c{s}}ek and Anders Jonsson},
