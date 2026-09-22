@@ -10,7 +10,7 @@ researchInterests:
   ]
 linkedIn: https://www.linkedin.com/in/scarllette-ellis-7ab83b223/
 personalSite: https://the-scarllette.github.io/
-profileImg: scarllette_ellis.png
+profileImg: scarllette_ellis.jpg
 slug: scarllette-ellis
 ---
 

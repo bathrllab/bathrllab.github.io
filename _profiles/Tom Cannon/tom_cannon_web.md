@@ -11,7 +11,7 @@ researchInterests:
     "Generalisation",
   ]
 linkedIn: https://www.linkedin.com/in/tom-cannon-3282a4100
-profileImg: strongest_avenger.png
+profileImg: strongest_avenger.jpg
 slug: tom-cannon
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: Andreas Theophilou
-profileImg: andreas.png
+profileImg: andreas.jpg
 supervisor: Özgür Şimşek
 researchInterests: ["Reinforcement learning"]
 linkedIn: https://www.linkedin.com/in/andreas-theophilou-2766531a/
