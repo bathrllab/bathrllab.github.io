@@ -1,7 +1,19 @@
+@inproceedings{theophilou2026hodge,
+  title={Hodge Laplacian quasi-harmonic flows for option discovery},
+  author={Theophilou, Andreas and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS 2026)},
+  year={2026}
+}
+@inproceedings{zhong2026explanation,
+  title={Explanation mechanism influences human reliance on reinforcement learning agents},
+  author={Zhong, Xuying and Beechey, Daniel and Jicol, C. and Hoffmann, Janina A. and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS 2026)},
+  year={2026}
+}
 @inproceedings{jucys2026multisteve,
   title={MultiSTEVE-1s: A Model Zoo and Interpretability Suite for Instruction-Following Vision Agents},
   author={Jucys, Karolis and Adamopoulos, George and {\c{S}}im{\c{s}}ek, {\"O}zg{\"u}r},
-  booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS 2026)},
   year={2026},
   link={https://openreview.net/pdf?id=lY7mivdb4k}
 }

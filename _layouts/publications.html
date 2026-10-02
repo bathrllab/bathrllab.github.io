@@ -126,10 +126,13 @@
                         let paperDiv = document.createElement('div');
                         paperDiv.classList.add('paper');
 
-                        let titleLink = document.createElement('a');
-                        titleLink.classList.add('paper-title');
-                        titleLink.href = fields['link'] || '#';
-                        titleLink.textContent = fields['title'] || 'No Title';
+                        let hasLink = fields['link'] && fields['link'].trim() !== '' && fields['link'].trim() !== '#';
+                        let titleElement = document.createElement(hasLink ? 'a' : 'span');
+                        titleElement.classList.add('paper-title');
+                        if (hasLink) {
+                            titleElement.href = fields['link'].trim();
+                        }
+                        titleElement.textContent = fields['title'] || 'No Title';
 
                         let tag = getConferenceTag(fields);
                         if (tag) {
@@ -137,10 +140,10 @@
                             let tagClass = 'conf-tag-' + tag.toLowerCase();
                             tagSpan.classList.add('conf-tag', tagClass);
                             tagSpan.textContent = tag;
-                            titleLink.appendChild(tagSpan);
+                            titleElement.appendChild(tagSpan);
                         }
 
-                        paperDiv.appendChild(titleLink);
+                        paperDiv.appendChild(titleElement);
 
                         let authorsDiv = document.createElement('div');
                         authorsDiv.classList.add('authors');

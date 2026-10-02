@@ -219,10 +219,9 @@ ul.list-inline {
   font-size: larger;
   color: $primary-color;
   text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
+}
+a.paper-title:hover {
+  text-decoration: underline;
 }
 .conf-tag {
   display: inline-flex;
