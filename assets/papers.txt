@@ -25,12 +25,21 @@
   organization={PMLR},
   link={https://openreview.net/pdf?id=ZnOnnJJghs}
 }
-@inproceedings{panayiotou2026c,
-  title={CausalProfiler: Generating Synthetic Benchmarks for Rigorous and Transparent Evaluation of Causal Machine Learning},
-  author={Panayiotou, Panayiotis and Poinsot, Audrey and Leite, Alessandro and Chesneau, Nicolas and Schoenauer, Marc and \c{S}im\c{s}ek, \"{O}zg\"{u}r},
-  booktitle={Proceedings of the 43rd International Conference on Machine Learning (ICML 2026)},
-  year={2026},
-  link={https://openreview.net/pdf?id=0wCl7EifsY}
+@InProceedings{pmlr-v306-panayiotou26a,
+  title = 	 {CausalProfiler: Generating Synthetic Benchmarks for Rigorous and Transparent Evaluation of Causal Machine Learning},
+  author =       {Panayiotou, Panayiotis and Poinsot, Audrey and Leite, Alessandro and Chesneau, Nicolas and Schoenauer, Marc and \c{S}im\c{s}ek, \"{O}zg\"{u}r},
+  booktitle = 	 {Proceedings of the 43rd International Conference on Machine Learning},
+  pages = 	 {96055--96110},
+  year = 	 {2026},
+  editor = 	 {Zhang, Tong and Dudik, Miroslav and Jaggi, Martin and Agarwal, Alekh and Li, Sharon and Schuurmans, Dale and Zhu, Jerry and Berkenkamp, Felix and Dong, Hanze and Bietti, Alberto},
+  volume = 	 {306},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--11 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v306/main/assets/panayiotou26a/panayiotou26a.pdf},
+  url = 	 {https://proceedings.mlr.press/v306/panayiotou26a.html},
+  abstract = 	 {Causal machine learning aims to answer "what if" questions using machine learning algorithms, making it a promising tool for high-stakes decision-making. Yet, empirical evaluation practices remain limited. Existing benchmarks often rely on a handful of hand-crafted or semi-synthetic datasets, leading to brittle, non-generalizable conclusions. To bridge this gap, we introduce CausalProfiler, a synthetic benchmark generator for causal machine learning methods. Based on a set of explicit design choices about the class of causal models, queries, and data considered, CausalProfiler randomly samples causal models, data, queries, and ground truths constituting the synthetic causal benchmarks. In this way, causal machine learning can be rigorously and transparently evaluated under a variety of conditions. This work offers the first random generator of synthetic causal benchmarks with coverage guarantees and transparent assumptions operating on the three levels of causal reasoning: observation, intervention, and counterfactual. We demonstrate its utility by evaluating several state-of-the-art methods under diverse conditions and assumptions, both in and out of the identification regime, illustrating the types of analyses and insights CausalProfiler enables.}
+  link = 	 {https://proceedings.mlr.press/v306/panayiotou26a.html},
 }
 @InProceedings{pmlr-v323-panayiotou26a,
   title = 	 {Causal Discovery in Action: Learning Chain-Reaction Mechanisms from Interventions},
