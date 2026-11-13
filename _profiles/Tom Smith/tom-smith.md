@@ -7,6 +7,10 @@ personalSite: https://tmssmith.github.io
 linkedIn: https://www.linkedin.com/in/tmssmith/
 profileImg: tmss.jpg
 slug: tom-smith
+role: Research Associate
+alumniRole: Joined the University of Bath as a Research Associate
+postdoc: yes
+alumni: yes
 ---
 
 <!-- fill in description of your research or who you are - Dont need this if you want to link to personal website -->
