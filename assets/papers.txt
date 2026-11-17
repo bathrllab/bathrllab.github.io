@@ -22,7 +22,7 @@ title={Graph-Based Skill Discovery in Continuous State Spaces via Temporal Dista
 author={Harvey Ayling and {\"O}zg{\"u}r {\c{S}}im{\c{s}}ek and Joshua B. Evans},
 booktitle={19th European Workshop on Reinforcement Learning (EWRL)},
 year={2026},
-url={https://openreview.net/forum?id=79XLaIHjjI}
+link={https://openreview.net/forum?id=79XLaIHjjI}
 }
 @inproceedings{steccanella2026learning,
   title={Learning the Minimum Action Distance},
